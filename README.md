@@ -1,6 +1,5 @@
 # Movie Discovery App
 
-![App Screenshot](/public/screenshot.png) <!-- Add your screenshot if available -->
 
 ## 🎬 Introduction
 A modern movie browsing application built with Next.js that allows users to:
@@ -24,9 +23,6 @@ A modern movie browsing application built with Next.js that allows users to:
 - Bun (v1.0+)
   
 ```bash
-# Clone the repository
-git clone https://github.com/your-username/movie-app.git
-cd movie-app
 
 # Install dependencies (using Bun)
 bun install
