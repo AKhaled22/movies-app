@@ -5,7 +5,7 @@ import { Pagination } from "@/components/pagination";
 import { Section } from "@/components/section";
 import { SectionSkeleton } from "@/components/section/loading";
 import { useMovies } from "@/hooks/react-query/useMovies";
-import { useFavorites } from "@/hooks/useFavorites";
+import { useFavorites } from "@/providers/FavoritesProvider";
 import { useSearchParams } from "next/navigation";
 
 export default function Home() {

@@ -41,12 +41,12 @@ export const Carousel = (props: { movies: Movie[] }) => {
           />
           <div className="absolute bottom-0 left-0 right-0  bg-gradient-to-t from-black to-transparent p-4">
             <h2 className="text-white text-xl font-bold">{movie.title}</h2>
-            <div className="flex items-center justify-center gap-4 mb-4 text-sm text-gray-300">
+            <div className="flex items-center justify-center gap-4 mb-2 text-sm text-gray-300">
               <p className="text-gray-300">{movie.imdbrating}/10</p>
               <p className="text-gray-300">{movie.runtime}</p>
               <p className="text-gray-300">{movie.released}</p>
             </div>
-            <p className="text-gray-300">{movie.synopsis}</p>
+            <p className="text-gray-300 mb-3">{movie.synopsis}</p>
           </div>
         </div>
       ))}

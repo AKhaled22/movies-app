@@ -1,5 +1,5 @@
 "use client";
-import { useFavorites } from "@/hooks/useFavorites";
+import { useFavorites } from "@/providers/FavoritesProvider";
 import { Movie } from "@/types/movie";
 import Image from "next/image";
 import Link from "next/link";
@@ -34,7 +34,7 @@ export const MovieCard = (props: Movie) => {
           <h3 className="text-xl font-semibold text-white truncate group-hover:text-gray-200 transition-colors duration-300">
             {props.title}
           </h3>
-          <div className="flex justify-evenly items-center mt-2 text-gray-400 group-hover:text-gray-300 transition-colors duration-300">
+          <div className="flex justify-between items-center mt-2 text-gray-400 group-hover:text-gray-300 transition-colors duration-300">
             <span>{props.released}</span>
             <span>{props.imdbrating}/10</span>
             <span className="text-gray-500 text-sm flex items-center gap-1">
